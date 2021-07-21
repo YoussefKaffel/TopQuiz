@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controleur.MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_viewer"
+        android:layout_margin="30sp"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wellcome ! Please write your name"/>
+
+    <EditText
+        android:id="@+id/activity_input_name_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="write your name here"
+        android:inputType="text"
+        android:paddingTop="10dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/activity_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="let's play"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

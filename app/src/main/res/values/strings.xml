@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TopQuiz</string>
+    <string name="hello_what_is_your_name">Hello What is your name !</string>
+    <string name="whrite_your_name_here">whrite your name here</string>
+    <string name="let_s_play">Let\'s Play</string>
+</resources>

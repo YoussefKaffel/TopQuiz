@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controleur.GameActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="30sp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/question"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proposition 1"
+        android:layout_margin="25dp"
+        android:padding="20dp"
+        android:id="@+id/propostion_1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proposition 2"
+        android:layout_margin="25dp"
+        android:padding="20dp"
+        android:id="@+id/propostion_2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proposition 3"
+        android:layout_margin="25dp"
+        android:padding="20dp"
+        android:id="@+id/propostion_3"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proposition 4"
+        android:layout_margin="25dp"
+        android:padding="20dp"
+        android:id="@+id/propostion_4"
+        />
+</LinearLayout>
